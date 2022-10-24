@@ -42,5 +42,6 @@ class Coin {
     } else
     {
       text("tails", myX, myY);
+     }
     }
   }
