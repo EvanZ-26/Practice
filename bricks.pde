@@ -4,7 +4,7 @@ void setup()
   noLoop();
 }
 void draw(){
-  for(int x = 0; x < height; x= x+60) {
+  for(int x = 0; x < height; x= x+55) {
      for(int y = 0; y < width; y = y+15){
       Brick bob = new Brick(x,y);
       bob.show();
